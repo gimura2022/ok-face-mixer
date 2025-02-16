@@ -9,7 +9,7 @@ import java.net.InetSocketAddress;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
+        HttpServer server = HttpServer.create(new InetSocketAddress(8040), 0);
 
         server.createContext("/api/mix_image", new ImageMixHandler());
         server.createContext("/api/mix_json", new JsonMixHandler());
