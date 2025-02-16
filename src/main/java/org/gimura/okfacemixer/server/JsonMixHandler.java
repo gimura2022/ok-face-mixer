@@ -17,7 +17,7 @@ public class JsonMixHandler extends BaseMixHandler implements HttpHandler {
             if (out == null)
                 return;
 
-            exchange.setAttribute("Content-Type", "text/json");
+            exchange.getResponseHeaders().add("Content-Type", "text/json");
             Utils.sendTextResponse(exchange, 200, JsonFaceHelper.writeToJson(out));
         } catch (Exception e) {
             e.printStackTrace();

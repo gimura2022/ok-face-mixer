@@ -27,7 +27,7 @@ public class ImageMixHandler extends BaseMixHandler implements HttpHandler {
             ImageIO.write((RenderedImage) image, "GIF", byteArray);
 
             exchange.sendResponseHeaders(200, byteArray.size());
-            exchange.setAttribute("Content-Type", "image/gif");
+            exchange.getResponseHeaders().add("Content-Type", "image/gif");
 
             OutputStream outputStream = exchange.getResponseBody();
             byteArray.writeTo(outputStream);
