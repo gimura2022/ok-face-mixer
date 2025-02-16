@@ -1,0 +1,25 @@
+{
+  "brows": {
+    "is_empty_element": false,
+
+    "x": 14,
+    "y": 1,
+    "file": "/brows/zany.png"
+  },
+
+  "eyes": {
+    "is_empty_element": false,
+
+    "x": 11,
+    "y": 8,
+    "file": "/eyes/zany.png"
+  },
+
+  "mouth": {
+    "is_empty_element": false,
+
+    "x": 26,
+    "y": 51,
+    "file": "/mouth/zany.png"
+  }
+}

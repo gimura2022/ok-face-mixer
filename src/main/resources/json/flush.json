@@ -1,0 +1,25 @@
+{
+  "brows": {
+    "is_empty_element": false,
+
+    "x": 8,
+    "y": 2,
+    "file": "/brows/flush.png"
+  },
+
+  "eyes": {
+    "is_empty_element": false,
+
+    "x": 4,
+    "y": 10,
+    "file": "/eyes/flush.png"
+  },
+
+  "mouth": {
+    "is_empty_element": false,
+
+    "x": 22,
+    "y": 43,
+    "file": "/mouth/flush.png"
+  }
+}

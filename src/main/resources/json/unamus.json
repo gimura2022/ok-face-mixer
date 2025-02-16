@@ -1,0 +1,25 @@
+{
+  "brows": {
+    "is_empty_element": false,
+
+    "x": 16,
+    "y": 4,
+    "file": "/brows/unamus.png"
+  },
+
+  "eyes": {
+    "is_empty_element": false,
+
+    "x": 8,
+    "y": 10,
+    "file": "/eyes/unamus.png"
+  },
+
+  "mouth": {
+    "is_empty_element": false,
+
+    "x": 5,
+    "y": 44,
+    "file": "/mouth/unamus.png"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "brows": {
+    "is_empty_element": true
+  },
+
+  "eyes": {
+    "is_empty_element": false,
+
+    "x": 10,
+    "y": 6,
+    "file": "/eyes/angry.png"
+  },
+
+  "mouth": {
+    "is_empty_element": false,
+
+    "x": 7,
+    "y": 39,
+    "file": "/mouth/angry.png"
+  }
+}

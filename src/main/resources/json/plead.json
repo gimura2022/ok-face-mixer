@@ -1,0 +1,25 @@
+{
+  "brows": {
+    "is_empty_element": false,
+
+    "x": 7,
+    "y": 4,
+    "file": "/brows/plead.png"
+  },
+
+  "eyes": {
+    "is_empty_element": false,
+
+    "x": 10,
+    "y": 9,
+    "file": "/eyes/plead.png"
+  },
+
+  "mouth": {
+    "is_empty_element": false,
+
+    "x": 18,
+    "y": 47,
+    "file": "/mouth/plead.png"
+  }
+}

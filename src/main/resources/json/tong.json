@@ -1,0 +1,25 @@
+{
+  "brows": {
+    "is_empty_element": false,
+
+    "x": 8,
+    "y": 4,
+    "file": "/brows/tong.png"
+  },
+
+  "eyes": {
+    "is_empty_element": false,
+
+    "x": 9,
+    "y": 10,
+    "file": "/eyes/tong.png"
+  },
+
+  "mouth": {
+    "is_empty_element": false,
+
+    "x": 3,
+    "y": 31,
+    "file": "/mouth/tong.png"
+  }
+}
