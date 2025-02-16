@@ -19,9 +19,7 @@ public class BaseMixHandler {
     }
 
     protected Face getMixedFace(@NotNull HttpExchange exchange) throws Exception {
-        String realQuery = exchange.getRequestURI().getQuery().split("aAa")[0];
-
-        Map<String, String> query = Utils.queryToMap(realQuery);
+        Map<String, String> query = Utils.queryToMap(exchange.getRequestURI().getQuery());
 
         String leftFaceType = query.get("left_type");
         String rightFaceType = query.get("right_type");
