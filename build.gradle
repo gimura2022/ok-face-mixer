@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.1.0'
 }
 
 group 'org.gimura.okfacemixer'
@@ -24,6 +25,16 @@ application {
     mainClass = 'org.gimura.okfacemixer.Main'
 }
 
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'org.gimura.okfacemixer.Main'
+        )
+    }
+}
+
 test {
     useJUnitPlatform()
 }
+
+build.dependsOn shadowJar

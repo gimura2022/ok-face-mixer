@@ -15,6 +15,8 @@ public class Main {
         server.createContext("/api/mix_json", new JsonMixHandler());
 
         server.setExecutor(null);
+
+        System.out.println("Server started");
         server.start();
     }
 }
